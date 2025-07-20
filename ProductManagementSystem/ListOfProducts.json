@@ -1,0 +1,102 @@
+[
+  {
+    "Name": "E-book",
+    "Price": 120.76,
+    "Stock": 197,
+    "Category": "Books",
+    "Discount": 20,
+    "Size": 4.56,
+    "FileType": ".fb2",
+    "ProductType": "Digital"
+  },
+  {
+    "Name": "Apple",
+    "Price": 34.87,
+    "Stock": 345,
+    "Category": "Fruit",
+    "Discount": 15,
+    "Weight": 2.89,
+    "Dimensions": [0.02, 0.025, 0.02],
+    "ProductType": "Physical"
+  },
+  {
+    "Name": "Photo Editing Software",
+    "Price": 3455.65,
+    "Stock": 134,
+    "Category": "SoftWare",
+    "Discount": 0,
+    "Size": 345.65,
+    "FileType": ".exe",
+    "ProductType": "Digital"
+  },
+  {
+    "Name": "Wooden Train Toy",
+    "Price": 345.65,
+    "Stock": 87,
+    "Category": "Toys",
+    "Discount": 25,
+    "Weight": 5.54,
+    "Dimensions": [2.0, 3.5, 2.0],
+    "ProductType": "Physical"
+  },
+  {
+    "Name": "Laptop",
+    "Price": 23999.99,
+    "Stock": 35,
+    "Category": "Electronics",
+    "Discount": 5,
+    "Weight": 2.89,
+    "Dimensions": [0.3, 0.3, 0.02],
+    "ProductType": "Physical"
+  },
+  {
+    "Name": "Cat's Toy Mouse",
+    "Price": 120.45,
+    "Stock": 6,
+    "Category": "Toys",
+    "Discount": 0,
+    "Weight": 0.15,
+    "Dimensions": [1.0, 0.005, 0.005],
+    "ProductType": "Physical"
+  },
+  {
+    "Name": "Online Video Course",
+    "Price": 589.90,
+    "Stock": 500,
+    "Category": "Books",
+    "Discount": 10,
+    "Size": 120.25,
+    "FileType": ".mp4",
+    "ProductType": "Digital"
+  },
+  {
+    "Name": "Bluetooth Headphones",
+    "Price": 1499.00,
+    "Stock": 48,
+    "Category": "Electronics",
+    "Discount": 12,
+    "Weight": 0.45,
+    "Dimensions": [0.2, 0.15, 0.1],
+    "ProductType": "Physical"
+  },
+  {
+    "Name": "Organic Banana Pack",
+    "Price": 69.50,
+    "Stock": 200,
+    "Category": "Fruit",
+    "Discount": 5,
+    "Weight": 1.2,
+    "Dimensions": [0.15, 0.25, 0.15],
+    "ProductType": "Physical"
+  },
+  {
+    "Name": "Video Game (Digital Edition)",
+    "Price": 899.99,
+    "Stock": 999,
+    "Category": "SoftWare",
+    "Discount": 30,
+    "Size": 56.7,
+    "FileType": ".iso",
+    "ProductType": "Digital"
+  }
+]
