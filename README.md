@@ -103,12 +103,12 @@ Each product entry includes common fields such as `Name`, `Price`, `Stock`, `Cat
 
 ## 🧠 Concepts Demonstrated
 
-•	Inheritance and abstraction (Product base class)
-•	Interface implementation (IDiscountable)
-•	JSON Serialization and Deserialization
-•	File I/O and error handling
-•	LINQ for filtering and sorting collections
-•	Events and Delegates (OnLowStock event)
+- Inheritance and abstraction (Product base class)
+- Interface implementation (IDiscountable)
+- JSON Serialization and Deserialization
+- File I/O and error handling
+- LINQ for filtering and sorting collections
+- Events and Delegates (OnLowStock event)
 
 ## 📝 Author
 
