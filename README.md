@@ -20,13 +20,13 @@ Product Management System is a simple C# console application that manages a list
 
 ## 📁 File Structure
 
-- **Product.cs** – Base abstract class for all product types
-- **DigitalProduct.cs** & **PhysicalProduct.cs** – Product types implementing **IDiscountable**
-- **FileManager.cs** – Handles JSON import/export for products and customers
-- **Program.cs** – Application entry point with UI logic and sorting/filtering functions
-- **ProductDTO.cs** – Data Transfer Object for simplified JSON mapping
-- **Customer.cs** – Immutable record type representing a customer
-- **ProductCategory.cs** – Enum for product categories
+- `Product.cs` – Base abstract class for all product types
+- `DigitalProduct.cs` & `PhysicalProduct.cs` – Product types implementing `IDiscountable`
+- `FileManager.cs` – Handles JSON import/export for products and customers
+- `Program.cs` – Application entry point with UI logic and sorting/filtering functions
+- `ProductDTO.cs` – Data Transfer Object for simplified JSON mapping
+- `Customer.cs` – Immutable record type representing a customer
+- `ProductCategory.cs` – Enum for product categories
 
 ## ▶️ How It Works
 
@@ -62,4 +62,54 @@ Wooden Train Toy - ₴259.24 (in stock: 87, 5.54 kg weight, dimensions: 2x3.5x2)
 
 All customers:
 Dexter Kim - email: dxtrkm@gmail.com
-...
+```
+
+## 💾 JSON File Format
+
+### 📦 Example: Product List (`ListOfProducts.json`)
+
+Each product entry includes common fields such as `Name`, `Price`, `Stock`, `Category`, `Discount`, and `ProductType`. Depending on whether the product is digital or physical, additional fields such as `Size`/`FileType` or `Weight`/`Dimensions` are included.
+
+```json
+[
+  {
+    "Name": "SuperGame",
+    "Price": 500.0,
+    "Stock": 10,
+    "Category": "SoftWare",
+    "Discount": 10.0,
+    "ProductType": "Digital",
+    "Size": 1024.0,
+    "FileType": ".exe"
+  },
+  {
+    "Name": "ToyCar",
+    "Price": 150.0,
+    "Stock": 5,
+    "Category": "Toys",
+    "Discount": 5.0,
+    "ProductType": "Physical",
+    "Weight": 0.8,
+    "Dimensions": [0.3, 0.2, 0.1]
+  }
+]
+```
+## 🚀 Getting Started
+
+1. Clone the repository.
+2. Open the solution in Visual Studio.
+3. Make sure the ListOfProducts.json and ListOfCustomers.json files exist in the working directory.
+4. Run the application.
+
+## 🧠 Concepts Demonstrated
+
+•	Inheritance and abstraction (Product base class)
+•	Interface implementation (IDiscountable)
+•	JSON Serialization and Deserialization
+•	File I/O and error handling
+•	LINQ for filtering and sorting collections
+•	Events and Delegates (OnLowStock event)
+
+## 📝 Author
+
+Created by [Nataliia Solodarenko](https://www.linkedin.com/in/nataliia-solodarenko-5272b0305/). Contributions and suggestions are welcome!
